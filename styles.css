@@ -1,0 +1,216 @@
+body {
+    font-family: "Novocento sans Book", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 92px;
+    background-color: #131333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.left-logo {
+    max-height: 125px;
+    padding: 10px 150px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.right-links {
+display: flex;
+list-style-type: none;
+margin: 0;
+padding-right: 150px;
+color: #d9e2ff;
+text-decoration: none;
+justify-content: space-between;
+}
+
+.right-links a{
+    text-decoration: none;
+    color:#d9e2ff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+h1 {
+    font-family: "aviano-flare", "novocento-sans-condensed", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    font-size: 48px
+}
+
+ul {
+    font-family: "aviano-flare", "novocento-sans-condensed", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+p {
+    font-family: "novocento-sans-condensed", sans-serif;
+    font-weight: 400;
+}
+
+.signup {
+    background-color: #131333;
+    margin: 0;
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.signup h1{
+    color:#d9e2ff;
+    font-size: 42px !important;
+    line-height: 45px;
+}
+
+.signup p{
+    color:#d9e2ff;
+}
+
+button {
+    background-color: #D6C0BC;
+    color: #131333;
+    padding: 15px;
+    font-size: 14px;
+    font-family: "novocento-sans-condensed", sans-serif;
+    font-weight: 600;
+    border-radius: 15px;
+    border: 0;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 150px;
+    margin: 0;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    box-shadow: 4px 6px 20px #131333;
+    border: 2px solid #d9e2ff;
+    border-radius: 20px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.game img{
+    max-width: 350px;
+}
+
+.game p{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color:#131333;
+    font-family: "novocento-sans-condensed", sans-serif;
+}
+
+h2 {
+    font-family: "aviano-flare", "novocento-sans-condensed", sans-serif;
+    font-size: 20px;
+    color:#131333;
+    font-weight: 800px;
+    margin: 0;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.controller img{
+    max-width: 425px!important;
+}
+
+.quote {
+    background-color: #d9e2ff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-content: center;
+}
+#menu1 {
+    display: flex;
+    font-family: "aviano-flare", sans-serif; 
+    padding: 10;
+    margin: 10;
+    font-size: 18px;
+    width: 100%;
+    overflow: auto;
+}
+
+.quote h3{
+    font-family: "novocento-sans-condensed", sans-serif;
+    font-weight: 800;
+    font-size: 28px; 
+    text-align: right;
+    line-height: 20px;
+    margin: 0 30% 0 0;
+    padding: 10px;
+}
+
+.c2a {
+    background-color: #131333;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: #d9e2ff;
+    margin: 80px 10% 80px 10%;
+    border-radius: 15px;
+}
+
+.subbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    color: #131333;
+}
+
+.c2atext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    width: 75%;
+    text-align: center;
+}
+
+.c2atext h3{
+    font-family: "aviano-flare", sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+}
+
+.footer {
+    background-color: #131333;
+    height: 100px;
+    color:#d9e2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
