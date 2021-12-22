@@ -14,8 +14,6 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    width: 100%;
-    position: fixed;
 }
 
 .left-logo {
@@ -137,6 +135,7 @@ h2 {
 
 .controller img{
     max-width: 425px!important;
+    padding: 15px;
 }
 
 .quote {
